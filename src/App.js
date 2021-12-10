@@ -14,6 +14,7 @@ const contract = new ethers.Contract(storageBoiAddress, StorageBoi.abi, provider
 
 
 class App extends Component {
+
   componentWillMount() {
     this.loadBlockchainData()
   }
